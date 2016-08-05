@@ -1,0 +1,33 @@
+{
+  "name": "laralix-jshint",
+  "description": "JSHint extension for Laravel Elixir",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kyle Anderson",
+    "email": "kyle@divspace.com"
+  },
+  "homepage": "https://github.com/laralix/jshint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laralix/jshint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laralix/jshint/issues"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "jshint",
+    "gulp"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0"
+  },
+  "scripts": {
+    "lint": "jshint index.js"
+  }
+}
